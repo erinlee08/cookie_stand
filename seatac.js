@@ -7,7 +7,7 @@ var shop2 = {
     min = Math.ceiling;
     max = Math.floor;
     return Math.floor(Math.random() * (max - min + 1) + min);
-  cookiePerHour: function() {
+  cookiePerHour: function(){
   return this.avg_cookie * Math.random;
     }
   }
