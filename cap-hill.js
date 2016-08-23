@@ -1,8 +1,8 @@
-var shop2 = {
-  name:'SeaTac Airport',
-  min_cust:	3,
-  max_cust:	24,
-  avg_cookie:1.2,
+var shop3 = {
+  name: 'Capitol Hill',
+  min_cust:	20,
+  max_cust:	38,
+  avg_cookie:	2.3
   custPerHour: function() {
     min = Math.ceil;
     max = Math.floor;
@@ -12,6 +12,7 @@ var shop2 = {
     }
   }
 }
+}
 
 var cookieHour = [cookiePerHour,custPerHour];
 // create
@@ -20,6 +21,3 @@ var tag1 = document.getElementsByTagName(<ul>);
 tag1.innnerText = <ul> + cookieHour[] + </ul>;
 // add to html
 document.body.append(<ul>);
-
-// var cookiePerHour = [store1.avg_cookie,store1.custPerHour()];
-e
