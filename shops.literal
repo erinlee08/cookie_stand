@@ -1,0 +1,116 @@
+
+var shop1 = {
+  name: 'Pike Place',
+  min_cust:	23,
+  max_cust:	65,
+  avg_cookie: 6.3,
+  // custPerHour: function() {
+  // return (Math.floor(Math.random() * (this.max_cust - this.min_cust + 1) + this.min_cust);
+  cookiePerHour: function(){
+    return this.avg_cookie * Math.random();
+  }
+}
+var cookieHour = [cookiePerHour,custPerHour];
+
+// create
+var tag1 = document.getElementsByTagName('<ul>');
+                          // add content
+tag1.innnerText = '<ul>' + cookieHour[' '] + ''</ul>'';
+// add to html
+document.body.append('<ul>';
+
+
+// shop2 seatac
+var shop2 = {
+  name:'SeaTac Airport',
+  min_cust:	3,
+  max_cust:	24,
+  avg_cookie:1.2,
+  custPerHour: function() {
+    min = Math.ceil;
+    max = Math.floor;
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  cookiePerHour: function(){
+  return this.avg_cookie * Math.random;
+    }
+  }
+}
+
+var cookieHour = [cookiePerHour,custPerHour];
+// create
+var tag1 = document.getElementsByTagName(<ul>);
+                          // add content
+tag1.innnerText = <ul> + cookieHour[] + </ul>;
+// add to html
+document.body.append(<ul>);
+
+// Seattle Center
+var shop3 = {
+  name: 'Seattle Center',
+  min_cust:	20,
+  max_cust:	38,
+  avg_cookie:2.3
+  // custPerHour: function() {
+  // return (Math.floor(Math.random() * (this.max_cust - this.min_cust + 1) + this.min_cust);
+  cookiePerHour: function(){
+    return this.avg_cookie * Math.random;
+  }
+  }
+}
+var cookieHour = [cookiePerHour,custPerHour];
+
+// create
+var tag1 = document.getElementsByTagName('<ul>');
+                          // add content
+tag1.innnerText = '<ul>' + cookieHour[' '] + ''</ul>'';
+// add to html
+document.body.append('<ul>';
+
+
+// shop4 cap Hill
+var shop4 = {
+  name: 'Capitol Hill',
+  min_cust:	20,
+  max_cust:	38,
+  avg_cookie:	2.3
+  custPerHour: function() {
+    min = Math.ceil;
+    max = Math.floor;
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  cookiePerHour: function(){
+  return this.avg_cookie * Math.random;
+    }
+  }
+}
+}
+
+var cookieHour = [cookiePerHour,custPerHour];
+// create
+var tag1 = document.getElementsByTagName(<ul>);
+                          // add content
+tag1.innnerText = <ul> + cookieHour[] + </ul>;
+// add to html
+document.body.append(<ul>);
+// shop5
+
+var shop5 = {
+  name: 'Alki',
+  min_cust:	2,
+  max_cust:	16,
+  avg_cookie:4.6
+  custPerHour: function() {
+  min = Math.ceil;
+  max = Math.floor;
+  return Math.floor(Math.random() * (max - min + 1) + min);
+cookiePerHour: function(){
+return this.avg_cookie * Math.random;
+  }
+}
+}
+var cookieHour = [cookiePerHour,custPerHour];
+// create
+var tag1 = document.getElementsByTagName(<ul>);
+                          // add content
+tag1.innnerText = <ul> + cookieHour[] + </ul>;
+// add to html
+document.body.append(<ul>);
