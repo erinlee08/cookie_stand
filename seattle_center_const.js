@@ -11,21 +11,26 @@ function Store(name, min_cust, max_cust, avg_cookie) {
 }
 Store.prototype.getCustomer = function() {
   this.custPerHour = getRandomIntInclusive (this.min_cust, this.max_cust);
-  console.log(this.custPerHour);
+  return Math.ceil(this.custPerHour);
 };
 Store.prototype.getCookie = function() {
   console.log(this.avg_cookie * this.custPerHour);
 };
-var shop1 = new Store('1st and Pike', 23, 65, 6.3);
+shop1.getCustomer();
+shop1.getCookie();
 
 
+var table = document.getElement('table');
+var tableData = [];
 for (var i = 0; i < 12; i++) {
-  shop1.getCustomer();
-  shop1.getCookie();
-}// var shop2 = new Store('SeaTac Airport', 3, 24, 1.2);
-// var shop3 = new Store('Seattle Center',	11,	38,	3.7);
-// var shop4 = new Store('Capitol Hill', 20,	38,	2.3);
-// var shop5 = new Store('Alki',	2, 16, 4.6);
+  tableData.push('<td>' + Store.name[i].length + '</td>' + '<td>' + Store.getCookie(i)+ '</td>'+ '<td> + ' Total location daily' + '</td>');
+};
+
+var shop1 = new Store('1st and Pike', 23, 65, 6.3);
+var shop2 = new Store('SeaTac Airport', 3, 24, 1.2);
+var shop3 = new Store('Seattle Center',	11,	38,	3.7);
+var shop4 = new Store('Capitol Hill', 20,	38,	2.3);
+var shop5 = new Store('Alki',	2, 16, 4.6);
 
 
 

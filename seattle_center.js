@@ -3,19 +3,18 @@ var shop3 = {
   min_cust:	20,
   max_cust:	38,
   avg_cookie:2.3
-  custPerHour: function() {
-  min = Math.ceil;
-  max = Math.floor;
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  // custPerHour: function() {
+  // return (Math.floor(Math.random() * (this.max_cust - this.min_cust + 1) + this.min_cust);
   cookiePerHour: function(){
     return this.avg_cookie * Math.random;
   }
   }
 }
 var cookieHour = [cookiePerHour,custPerHour];
+
 // create
-var tag1 = document.getElementsByTagName(<ul>);
+var tag1 = document.getElementsByTagName('<ul>');
                           // add content
-tag1.innnerText = <ul> + cookieHour[] + </ul>;
+tag1.innnerText = '<ul>' + cookieHour[' '] + ''</ul>'';
 // add to html
-document.body.append(<ul>);
+document.body.append('<ul>'');
