@@ -19,19 +19,26 @@ Store.prototype.getCookie = function() {
 shop1.getCustomer();
 shop1.getCookie();
 
+var hours = ['6am','7am','8am','9am','10am', '11am', '12pm', '1pm' , '2pm', '3pm', '4pm','5pm', '6pm'];
+var totalByHour = hours + getCookie;
+// var totalByLoc =
 
 var table = document.getElement('table');
 var tableData = [];
-for (var i = 0; i < 12; i++) {
-  tableData.push('<td>' + Store.name[i].length + '</td>' + '<td>' + Store.getCookie(i)+ '</td>'+ '<td> + ' Total location daily' + '</td>');
-};
 
-var shop1 = new Store('1st and Pike', 23, 65, 6.3);
-var shop2 = new Store('SeaTac Airport', 3, 24, 1.2);
-var shop3 = new Store('Seattle Center',	11,	38,	3.7);
-var shop4 = new Store('Capitol Hill', 20,	38,	2.3);
-var shop5 = new Store('Alki',	2, 16, 4.6);
+for (var i = 0; i < hours.length; i++) {
+  tableData.push('<td>' + hour[i].length + '</td>');
+ };
+ console.log(tableData);
 
 
-
-var shop2 = new Store('SeaTac Airport', 3, 24, 1.2);
+// + '<td>' + Store.getCookie(i)+ '</td>'+ '<td> + ' Total location daily' + '</td>');
+// // }
+// //
+// // var shop1 = new Store('first and Pike', 23, 65, 6.3);
+// // var shop2 = new Store('SeaTac Airport', 3, 24, 1.2);
+// // var shop3 = new Store('Seattle Center',	11,	38,	3.7);
+// // var shop4 = new Store('Capitol Hill', 20,	38,	2.3);
+// // var shop5 = new Store('Alki', 2, 16, 4.6);
+// //
+// // var shop2 = new Store('SeaTac Airport', 3, 24, 1.2);
